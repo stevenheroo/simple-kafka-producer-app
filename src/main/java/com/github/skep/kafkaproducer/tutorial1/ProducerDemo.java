@@ -29,10 +29,12 @@ public class ProducerDemo {
         //send data
         producer.send(record, (recordMetadata, e) -> {
             if (e != null) {
-                LOG.info("Successful");
+                LOG.info("Error while producing" + e.getLocalizedMessage());
             }
             else {
-                LOG.info("\nMetadata Response\n"+
+                LOG.info("\n-------------------" +
+                        "\nMetadata Response\n"+
+                        "------------------\n"+
                         "TOPIC: " + recordMetadata.topic() + "\n"+
                         "PARTITION: " + recordMetadata.partition()+ "\n"+
                         "OFFSET: " + recordMetadata.offset() + "\n" +
