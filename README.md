@@ -4,11 +4,11 @@ A simple kafka producer application
 Process \
 **_Step 1_** \
 Download Kafka from https://kafka.apache.org/downloads \
-and install I'm using a Linux OS, choose the one suitable for you OS. \
-and follow installation instruction. \
+and install I'm using a Linux OS, choose the suitable one \
+and follow installation instructions. \
 After successful installation: \
 1. Create a folder(called = data) in the Kafka directory,
-which had two folders inside as well(zookeeper & kafka-logs).
+create two folders in data dir (zookeeper & kafka-logs).
 2. Copy the path of the folder inside their parent Folder(data), and edit => [config/zookeeper.properties]
 copy kafka-logs path and edit [server.properties]. \
 
@@ -27,5 +27,5 @@ Use **kafka-topic.sh** to view documentation \
 5.kafka-console-consumer.sh --topic **nameoftopic** --bootstrap-server localhost:9092 \
 
 **When all is set**
-Start writing producer java functions (Now and Future TODOs)
-Create ProducerProperties, Create Producer, Create a record, Send Data ....
+Start writing producer java functions (Now and Future TODOs) \
+Create ProducerProperties, Create Producer, \ Create a record, callbacks Send Data ....
