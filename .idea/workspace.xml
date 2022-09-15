@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a36bd44-97b4-4ebd-b2a0-19a62f138240" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/skep/kafkaproducer/tutorial1/ConsumerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/skep/kafkaproducer/tutorial1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/skep/kafkaproducer/tutorial1/MyStaticValues.java" afterDir="false" />
+    <list default="true" id="2a36bd44-97b4-4ebd-b2a0-19a62f138240" name="Changes" comment="subscriber func">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/skep/kafkaproducer/tutorial1/ProducerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/skep/kafkaproducer/tutorial1/ProducerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/skep/kafkaproducer/tutorial1/ConsumerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/skep/kafkaproducer/tutorial1/ConsumerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/skep/kafkaproducer/tutorial1/MyStaticValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/skep/kafkaproducer/tutorial1/MyStaticValues.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663163647550</updated>
       <workItem from="1663163650650" duration="9063000" />
-      <workItem from="1663234281237" duration="16216000" />
+      <workItem from="1663234281237" duration="21264000" />
     </task>
     <task id="LOCAL-00001" summary="first commit - created producer properties">
       <created>1663167389310</created>
@@ -126,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663172099307</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="subscriber func">
+      <created>1663255657204</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663255657204</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +156,7 @@
     <MESSAGE value="call back when send func is called" />
     <MESSAGE value="call back update" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="subscriber func" />
+    <option name="LAST_COMMIT_MESSAGE" value="subscriber func" />
   </component>
 </project>
