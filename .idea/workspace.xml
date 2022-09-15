@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a36bd44-97b4-4ebd-b2a0-19a62f138240" name="Changes" comment="call back when send func is called">
+    <list default="true" id="2a36bd44-97b4-4ebd-b2a0-19a62f138240" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/skep/kafkaproducer/tutorial1/ConsumerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/skep/kafkaproducer/tutorial1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/skep/kafkaproducer/tutorial1/MyStaticValues.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/skep/kafkaproducer/tutorial1/ProducerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/skep/kafkaproducer/tutorial1/ProducerDemo.java" afterDir="false" />
     </list>
@@ -37,15 +40,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.skep.kafkaproducer.tutorial1.Main" />
+      <module name="Simple-Kafka-Producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.skep.kafkaproducer.tutorial1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.skep.kafkaproducer.tutorial1.ProducerDemo" />
       <module name="Simple-Kafka-Producer" />
@@ -61,6 +82,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ProducerDemo" />
       </list>
     </recent_temporary>
@@ -73,7 +95,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663163647550</updated>
-      <workItem from="1663163650650" duration="6603000" />
+      <workItem from="1663163650650" duration="9063000" />
+      <workItem from="1663234281237" duration="16216000" />
     </task>
     <task id="LOCAL-00001" summary="first commit - created producer properties">
       <created>1663167389310</created>
@@ -89,7 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663170252835</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="call back update">
+      <created>1663170552935</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663170552935</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update">
+      <created>1663172099307</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663172099307</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +149,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit - created producer properties" />
     <MESSAGE value="call back when send func is called" />
-    <option name="LAST_COMMIT_MESSAGE" value="call back when send func is called" />
+    <MESSAGE value="call back update" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
